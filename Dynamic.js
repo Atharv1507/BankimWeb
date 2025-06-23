@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       `;
 
     });
-    home.innerHTML += `<button class='buttton' onclick="showSection('CategoryDropDowns')">proceed to catalogue</button>`;
+    home.innerHTML += `<button class='button' onclick="showSection('CategoryDropDowns')">proceed to catalogue</button>`;
 
     products.forEach(product => {
         let cname = document.getElementById(product.category);
