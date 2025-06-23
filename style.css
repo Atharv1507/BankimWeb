@@ -101,7 +101,7 @@
   .product-card {
     display: flex;
     flex-direction: column;
-    background-image:url(bg/productCard.PNG);
+    background-image:url(https://atharv1507.github.io/BankimWeb/bg/productCard.PNG);
     background-size:100% 100%;
     padding: 0.8rem 1rem ;
     border-radius: 10px;
