@@ -91,7 +91,7 @@
 
   .catalogue {
     /* display: none; */
-    background-color: #1E475d;
+    background-color: #1e475c;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 1.5rem;
@@ -105,7 +105,7 @@
     background-size:100% 100%;
     padding: 0.8rem 1rem ;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3 );
     text-align: center;
   }
 
@@ -121,7 +121,7 @@
 
   .product-card h3 {
     margin-top: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   .product-card p {
@@ -193,6 +193,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0.2rem 0.3rem;
     border-radius: 5px;
     border: none;
+    font-size: 1.3rem;
     transition: all 0.3s ease-in-out;
 
   }
@@ -271,6 +272,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
  #boho{
   display: none;
  }
-#ring{
-    display:none:
-}
+ #ring{
+  display: none;
+ }  
