@@ -8,9 +8,9 @@ function contactWp(buttonElement) {
     // Get the h3 text
     const h3Text = card.querySelector('h3').textContent;
  
-    const message = `I want to order: ${h3Text} Image: ${imgSrc}`;
+    const message = `I want to order: ${h3Text}, Image: ${imgSrc}`;
 
-    const whatsappLink = `https://wa.me/919315585295?text=${encodeURIComponent(message)}`;
+    const whatsappLink = `https://wa.me/919810714420?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, '_blank');
 
   }
