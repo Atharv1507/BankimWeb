@@ -48,10 +48,8 @@ header nav a {
 }
 
 .logo {
-  width: 50rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ff6f61;
+  width: 40rem;
+
 }
 .logo img{
   margin: 0;
@@ -167,8 +165,8 @@ footer {
     font-size:1rem;
   }
   .logo img{
-      width: 70%;
-      margin-left:-3rem;
+      width: 60%;
+      margin-left:-1rem;
   }
   .catalogue{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

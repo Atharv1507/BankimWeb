@@ -7,7 +7,7 @@ let products = [
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho3.jpeg", category: "boho", name: "Boho Serenity", price: 5000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho4.jpeg", category: "boho", name: "Boho Dream", price: 4800 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho5.jpeg", category: "boho", name: "Boho Spirit", price: 3500 },
-  { image: "https://atharv1507.github.io/BankimWeb/photos/boho6.jpeg", category: "boho", name: "Boho Spirit", price: 4800 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/boho6.jpeg", category: "boho", name: "Boho Vision", price: 4800 },
   //new category kids
   // { image: "https://atharv1507.github.io/BankimWeb/photos/kids.jpeg", category: "boho", name: "Boho Kids", price: 5500 },
   
@@ -47,5 +47,5 @@ let products = [
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi4.jpeg", category: "sakhi", name: "Sakhi Harmony", price: 6000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi.jpeg", category: "sakhi", name: "Sakhi Radiance", price: 6000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi5.jpeg", category: "sakhi", name: "Sakhi Grace", price: 5500 },
-  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi6.jpeg", category: "sakhi", name: "Sakhi Grace", price: 5800 }
+  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi6.jpeg", category: "sakhi", name: "Royal Sakhi ", price: 5800 }
 ];
