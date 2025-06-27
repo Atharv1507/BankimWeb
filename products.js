@@ -43,9 +43,9 @@ let products = [
   { image: "https://atharv1507.github.io/BankimWeb/photos/pichwai7.jpeg", category: "pichwai", name: "Pichwai Classic", price: 5000 },
 
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi2.jpeg", category: "sakhi", name: "Sakhi Reflection", price: 6000 },
-  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi3.jpeg", category: "sakhi", name: "Sakhi Blossom", price: 6000},
+  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi3.jpeg", category: "sakhi", name: "Sanjh", price: 6000},
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi4.jpeg", category: "sakhi", name: "Sakhi Harmony", price: 6000 },
-  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi.jpeg", category: "sakhi", name: "Sakhi Radiance", price: 6000 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi.jpeg", category: "sakhi", name: "Rang Rani", price: 6000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi5.jpeg", category: "sakhi", name: "Sakhi Grace", price: 5500 },
-  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi6.jpeg", category: "sakhi", name: "Royal Sakhi ", price: 5800 }
+  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi6.jpeg", category: "sakhi", name: "Royal Sakhi", price: 5800 }
 ];
