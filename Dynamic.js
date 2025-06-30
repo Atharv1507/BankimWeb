@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     randomProducts.forEach(product => {
         home.innerHTML += `
         <div class="product-card">
-          <img src="${product.image}" alt="${product.name}" class="catalogueimg" ">
+          <img src="${product.image}" alt="${product.name}" class="catalogueimg ${product.category}-img" ">
           <h3>${product.name}</h3>
           <p class="price">₹${product.price}</p>
           <button onclick="contactWp(this)">Order Now</button>
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let cname = document.getElementById(product.category);
         cname.innerHTML += `
           <div class="product-card">
-            <img src="${product.image}" alt="${product.name}" class="catalogueimg" ">
+            <img src="${product.image}" alt="${product.name}" class="catalogueimg ${product.category}-img" ">
             <h3>${product.name}</h3>
             <p class="price">₹${product.price}</p>
             <button onclick="contactWp(this)">Order Now</button>
