@@ -47,5 +47,19 @@ let products = [
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi4.jpeg", category: "sakhi", name: "Sakhi Harmony", price: 6000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi.jpeg", category: "sakhi", name: "Rang Rani", price: 6000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi5.jpeg", category: "sakhi", name: "Sakhi Grace", price: 5500 },
-  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi6.jpeg", category: "sakhi", name: "Royal Sakhi", price: 5800 }
+  { image: "https://atharv1507.github.io/BankimWeb/photos/sakhi6.jpeg", category: "sakhi", name: "Royal Sakhi", price: 5800 },
+
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi1.jpeg", category: "rakhi", name: "Rakhi Delight", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi2.jpeg", category: "rakhi", name: "Rakhi Blessing", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi3.jpeg", category: "rakhi", name: "Rakhi Love", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi4.jpeg", category: "rakhi", name: "Rakhi Bond", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi5.jpeg", category: "rakhi", name: "Rakhi Tradition", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi6.jpeg", category: "rakhi", name: "Rakhi Joy", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi7.jpeg", category: "rakhi", name: "Rakhi Charm", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi8.jpeg", category: "rakhi", name: "Rakhi Elegance", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi9.jpeg", category: "rakhi", name: "Rakhi Spirit", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi10.jpeg", category: "rakhi", name: "Rakhi Heritage", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi11.jpeg", category: "rakhi", name: "Rakhi Blessings", price: 900 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/rakhi12.jpeg", category: "rakhi", name: "Rakhi Tradition", price: 900 },
+
 ];
