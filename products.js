@@ -1,6 +1,9 @@
 let products = [
   { image: "https://atharv1507.github.io/BankimWeb/photos/ring.jpeg", category: "ring", name: "The Reflection", price: 2000 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/ring2.jpeg", category: "ring", name: "Boho Classic", price: 2500 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/ring3.jpeg", category: "ring", name: "Boho Teddy", price: 2000 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/ring4.jpeg", category: "ring", name: "Organic Orange", price: 2000 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/ring5.jpeg", category: "ring", name: "Turqoise Classic", price: 2000 },
 
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho.jpeg", category: "boho", name: "Boho Elegance", price: 3500 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho2.jpeg", category: "boho", name: "Boho Charm", price: 5500 },
@@ -8,8 +11,11 @@ let products = [
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho4.jpeg", category: "boho", name: "Boho Dream", price: 4800 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho5.jpeg", category: "boho", name: "Boho Spirit", price: 3500 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/boho6.jpeg", category: "boho", name: "Boho Vision", price: 4800 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/boho7.jpeg", category: "boho", name: "Boho Vision", price: 4800 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/boho8.jpeg", category: "boho", name: "Boho Vintage", price: 5500 },
   //new category kids
-  // { image: "https://atharv1507.github.io/BankimWeb/photos/kids.jpeg", category: "boho", name: "Boho Kids", price: 5500 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/kids.jpeg", category: "kids", name: "Jolly Boy", price: 3000 },
+  { image: "https://atharv1507.github.io/BankimWeb/photos/kids2.jpeg", category: "kids", name: "Unicorn World", price: 2500 },
   
   { image: "https://atharv1507.github.io/BankimWeb/photos/EVILEYE1.jpeg", category: "evileye", name: "The protector", price: 4500 },
   { image: "https://atharv1507.github.io/BankimWeb/photos/EVILEYE2.jpeg", category: "evileye", name: "The guardian", price: 5500 },
