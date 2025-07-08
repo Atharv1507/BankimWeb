@@ -1,2 +1,3 @@
-User-agent: OpenAI
+User-agent: *
 Allow: /
+Sitemap: https://Atharv1507.github.io/sitemap.xml
