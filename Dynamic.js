@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const randomProducts = shuffledProducts.slice(0, maxProducts);
 
     randomProducts.forEach(product => {
-    if(product.category!='ring){
+    if(product.category!=='ring'){
         home.innerHTML += `
         <div class="product-card">
           <img src="${product.image}" alt="${product.name}" class="catalogueimg ${product.category}-img" ">
@@ -33,9 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     });
-    else{
-    
-    }
+
     home.innerHTML += `<button class='buttton' onclick="showSection('CategoryDropDowns')">proceed to catalogue</button>`;
 
     products.forEach(product => {
