@@ -2,16 +2,15 @@
 document.addEventListener('DOMContentLoaded', function () {
     const home = document.getElementById('home');
     const maxProducts=8;
-    // Filter out products with category 'ring'
-    const filteredProducts = products.filter(product => product.category !== 'ring');
-
+    
     // Shuffle the filtered products array
-    const shuffledProducts = filteredProducts.sort(() => 0.5 - Math.random());
+    const shuffledProducts = products.sort(() => 0.5 - Math.random());
 
     // Get a slice of the first 8 products
     const randomProducts = shuffledProducts.slice(0, maxProducts);
 
     randomProducts.forEach(product => {
+    if(product.category!='ring){
         home.innerHTML += `
         <div class="product-card">
           <img src="${product.image}" alt="${product.name}" class="catalogueimg ${product.category}-img" ">
@@ -20,8 +19,23 @@ document.addEventListener('DOMContentLoaded', function () {
           <button onclick="contactWp(this)">Order Now</button>
         </div>
       `;
+    }
+    else{
+        home.innerHTML += `
+        <div class="product-card" style='grid-row-end: span 3; height:auto;'>
+          <img src="${product.image}" alt="${product.name}" class="catalogueimg ${product.category}-img" ">
+          <h3>${product.name}</h3>
+          <p class="price">₹${product.price}</p>
+          <button onclick="contactWp(this)">Order Now</button>
+        </div>
+      `;
+        
+    }
 
     });
+    else{
+    
+    }
     home.innerHTML += `<button class='buttton' onclick="showSection('CategoryDropDowns')">proceed to catalogue</button>`;
 
     products.forEach(product => {
