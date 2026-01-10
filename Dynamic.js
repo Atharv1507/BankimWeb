@@ -68,7 +68,8 @@ const images = document.getElementsByClassName('catalogueimg'); // No dot!
 
 document.addEventListener('click', function (e) {
     if (e.target.classList.contains('catalogueimg')) {
-        const productID = e.target.alt.replace(/\s+/g, '-') // Create a slug from the name
+        const productID = e.target.alt.replace(/\s+/g, '-').toLowerCase()// Create a slug from the name
+        
         
         // 1. Open Modal
         openModal(e.target.src);
