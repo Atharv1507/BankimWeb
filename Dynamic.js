@@ -12,7 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Populate Home Section
     randomProducts.forEach(product => {
-        const cardClass = product.category === 'ring' ? 'style="grid-row-end: span 3; height:auto;"' : '';
+        //product.category === 'ring' ? 'style="grid-row-end: span 3; height:auto;"' : '';
+        let cardClass = '';
+        if(product.category==='Ring' || product.category==='Mini_Hanging'){
+            cardClass='style="grid-row-end: span 3;height:auto;"';
+        }
         home.innerHTML += `
             <div class="product-card" ${cardClass}>
               <img src="${product.image}" alt="${product.name}" class="catalogueimg ${product.category}-img" loading="lazy">

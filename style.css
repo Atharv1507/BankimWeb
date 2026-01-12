@@ -250,7 +250,7 @@ margin-right:10%;
 width:80%;
 }
 
-.product-card .ring-img {
+.product-card .Ring-img,.product-card .Mini_Hanging-img{
   aspect-ratio: 9/16;
   height: auto;
 }
