@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     randomProducts.forEach(product => {
         //product.category === 'ring' ? 'style="grid-row-end: span 3; height:auto;"' : '';
         let cardClass = '';
-        if(product.category==='Ring' || product.category==='Mini_Hanging'){
+        if(product.category==='Ring' || product.category==='Mini_hanging'){
             cardClass='style="grid-row-end: span 3;height:auto;"';
         }
         home.innerHTML += `
